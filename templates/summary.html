@@ -15,8 +15,6 @@
                 <form method="post">
                     {% csrf_token %}
                     {{ form }}
-<!--                    <label for="{{ form.text.id_for_label }}">{{ form.text.label }}</label>-->
-<!--                    <textarea id="{{ form.text.id_for_label }}" class="form-control" name="text" cols="40" rows="10" required>{{ form.text.attrs.placeholder }}</textarea>-->
                     <div class="text-end my-4">
                         <button class="btn btn-primary" type="submit">要約する</button>
                     </div>
